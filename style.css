@@ -1,0 +1,170 @@
+/* Reset default styles for the navbar */
+body{
+    background-color: #9DB2BF;
+    overflow-y: hidden;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Style the navbar */
+nav {
+    background-color: #27374D;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    color: white    ;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    transform: scaleX(1.04);
+}
+
+.box{
+    margin-left: 40px;
+    margin-top: 40px;
+    background-color: white;
+    height: 170px;
+    width: 350px;
+    color: black;
+    border-radius: 10px;
+}
+
+.box h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    padding-top: 3px;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.inner{
+    display: flex;
+    flex-direction: row;
+
+}
+.material-symbols-outlined{
+    padding-top: 22px;
+    padding-left: 150px;
+}
+.box span{
+    font-size: 40px;
+    color: #19A7CE;
+}
+.subheading{
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subheading1{
+    margin-left: 20px;
+}
+.subheading1 .span{
+    color: green;
+    font-size: 18px;
+}
+.box:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.img{
+    margin-left: 33px;
+    margin-top: 40px;
+}
+.img img{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+}
+.graphs{
+    display: flex;
+    flex-direction: row;
+}
+
+.img .img2{
+    width: 650px;
+    height: 350px;
+}
+
+.graphs .product{
+    background-color: white;
+    height: 350px;
+    width: 460px;
+    margin-left: 33px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.subheading2{
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+}
+.product .productlist{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product .productlist h3{
+    font-weight: 150;
+}
+
+/* Reset default styles for the footer */
+.dashboard-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 121px;
+}
+
+.dashboard-footer p {
+    margin: 0;
+}
+
+.dashboard-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.dashboard-footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dashboard-footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dashboard-footer ul li a:hover {
+    text-decoration: underline;
+}
+
